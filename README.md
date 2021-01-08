@@ -11,7 +11,7 @@ The analyser has multiple features:
 * Display the amount of views all documents received from each browser in a verbose manner ([User-Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent))
 * Display the amount of views all documents received from each browser (displaying only the browser name and version)
 * Display the top ten readers of all documents based on the users time spent reading
-* Provide a recommendation of documents a user might be intrested in based on what other readers of the provided document have read
+* Provide a recommendation of documents a user might be interested in based on what other readers of the provided document have read
   * Displayed as a table
   * Displayed using a [dotgraph](https://graphviz.org/doc/info/lang.html)
 
@@ -20,7 +20,7 @@ The analyser has multiple features:
 
 ## Usage 
 
-The dataset anaylser can be used either through the command line interface or through the use of a graphical user interface. The command line interface displays the outputs of the anlysis inside the console whereas the graphical user interface makes use of tables and graphs. Datasets used with the application **must** be JSON files, an example of a parital dataset can be seen [here](https://www2.macs.hw.ac.uk/~ks83/dataset_example.json).
+The dataset anaylser can be used either through the command line interface or through the use of a graphical user interface. The command line interface displays the outputs of the analysis inside the console whereas the graphical user interface makes use of tables and graphs. Datasets used with the application **must** be JSON files, an example of a parital dataset can be seen [here](https://www2.macs.hw.ac.uk/~ks83/dataset_example.json).
 
 
 
@@ -33,7 +33,7 @@ To use the CLI the following command should be used:
 python3 analyser.py -t task_id -u user_uuid [optional] -d doc_uuid [optional] -f file_path
 ```
 
-The table below shows the anaylsis tasks and associated `task_id` along with the required paramters  for each task:
+The table below shows the anaylsis tasks and associated `task_id` along with the required parameters for each task:
 
 
 | **Analysis Tasks** | task_id | user_uuid | doc_uuid  | file_path|
@@ -43,8 +43,8 @@ The table below shows the anaylsis tasks and associated `task_id` along with the
 | **Views by browser verbose (user agent)**|   3                |❌|❌|✅|
 | **Views by browser (browser name and version)**|  4           |❌|❌|✅|
 | **Reader profiles (top ten readers)**|     5                  |❌|❌|✅|
-| **Recommended documents (table)**|   6               |✅|✅|✅|
-| **Recommended documents (dotgraph)**  | 7           |✅|✅|✅|
+| **Recommended documents (table)**|   6                        |✅|✅|✅|
+| **Recommended documents (dotgraph)**  | 7                     |✅|✅|✅|
 
 <br />
 

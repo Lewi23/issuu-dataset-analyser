@@ -26,14 +26,14 @@ python3 analyser -t task -u user_uuid -d doc_uuid -f file_path
 The table below shows the paramters required for each task:
 
 
-task_id | user_uuid | doc_uuid  | file_path
---- | --- | --- | --- | ---
-views_by_country                      |❌     | ✅ | ✅ |  
-views_by_continent                    |❌     | ✅ | ✅ |  
-views_by_browser_verbose (verbose)            |❌    | ❌    | ✅|  
-views_by_browser (browser name and version)  | ❌    |❌     | ✅ |  
-reader_profiles (top ten readers)     |❌   | ❌ | ✅|
-also_likes (suggested documents)      | ✅   | ✅  | ✅ |  
+|task_id | user_uuid | doc_uuid  | file_path|
+|---|---|---|---|
+|views_by_country                               |❌|✅|✅|
+|views_by_continent                             |❌|✅|✅|
+|views_by_browser_verbose (verbose)             |❌|❌|✅|
+|views_by_browser (browser name and version)    |❌|❌|✅|
+|reader_profiles (top ten readers)              |❌|❌|✅|
+|also_likes (suggested documents)               |✅|✅|✅|
 
 <br />
 
